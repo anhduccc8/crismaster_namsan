@@ -1,0 +1,140 @@
+/*
+ *
+ * Theme Name: crismaster
+ * Description: CR
+ * Theme URI: 
+ * Version: 1.0
+ * Theme Author: Admin
+ * Author URI: 
+ * Tags: starter theme, framework theme, two-columns, customize
+ * Textdomain: 
+ */
+
+.box-link-table {
+    width: 38px;
+    height: 38px;
+}
+.item-show-case .show-case-title {
+    font-size: 26px;
+}
+h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer .wrap p a {
+    color: #FFCD00;
+}
+.shs-nav-blog-releated-1 .owl-carousel .owl-nav {
+    display: block !important;
+}
+.owl-carousel.shs-nav-blog-releated-1 .owl-prev {
+    position: absolute;
+    top: 60px;
+    left: -35px;
+}
+.owl-carousel.shs-nav-blog-releated-1 .owl-next {
+    position: absolute;
+    top: 60px;
+    right: -35px;
+}
+.owl-carousel.shs-nav-blog-releated-1 .owl-nav.disabled {
+    display: block !important;
+}
+.width-70-per {
+    width: 70%;
+    margin: auto;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.link-map {
+    min-height: 300px;
+}
+.hide {
+    display: none;
+}
+.wpcf7-form-control.form-check-input {
+    display: contents;
+}
+.wpcf7-form-control.form-check-input>span{
+    margin-left: 0;
+}
+.btn-form-register:hover {
+    border-color: var(--primary_color);
+    color: var(--primary_color);
+}
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.min-h200px {
+    min-height: 200px;
+}
+.comment-form-cookies-consent,
+.form .logged-in-as{
+    display: none !important;
+}
+.list-item-info ul li a.active {
+    color: var(--primary_color);
+}
+.nav-number-blog a.active {
+    background-color: var(--primary_color);
+    color: #fff;
+}
+.widget-category-list.style-03 .list-item-category li a.active {
+    font-weight: bold;
+}
+.comment-reply-title,
+.comment-notes,
+p.logged-in-as{
+    display: none;
+}
+.rating-stars i {
+    font-size: 24px;
+    color: #FFD700; /* Màu vàng, bạn có thể thay đổi màu sắc theo ý muốn */
+    cursor: pointer;
+}
+.rating-stars i {
+    color: #e7e4d5;
+}
+.rating-stars i.selected {
+    color: #FFD700;
+}
+@media (min-width: 1200px) {
+    #menu-reponsive .hsh-menu-list li a {
+        color: #fff;
+    }
+    .section-product .owl-carousel .owl-nav,
+    .section-product .owl-carousel .owl-nav.disabled {
+        display: block !important;
+    }
+    .link-map {
+        min-height: 500px;
+    }
+}
+@media (max-width: 1199px) {
+    .hide-mobile-1199 {
+        display: none;
+    }
+    .form-search input {
+        margin-left: 0 !important;
+        width: 100%;
+    }
+}
+@media (max-width: 454px) {
+    .btn-search-dropdown {
+        margin-top: 40px;
+    }
+    .section-widget-service .item-section-title,
+    .wrap-title-section.heading-service .item-section-title,
+    h2.item-section-title.style-02,
+    .item-section-title .text-highlight {
+        font-size: 23px;
+        display: block;
+    }
+    .btn-round.style-02 {
+        margin: -1px 5px 12px 15px !important;
+    }
+}
