@@ -1,0 +1,24 @@
+/**
+ * @license
+ *
+ * Font Family: UTM-Avo
+ *
+*/
+
+@font-face {
+  font-family: 'UTM-Avo-Thin';
+  src: url('../fonts/UTM-Avo-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+  font-family: 'UTM-Avo-Bold';
+  src: url('../fonts/UTM-Avo-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: 'UTM-Avo-Bold';
+  src: url('../fonts/UTM-Avo-Bold-Italic.ttf') format('truetype');
+    font-weight: 700;
+}

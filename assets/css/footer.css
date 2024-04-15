@@ -1,0 +1,165 @@
+/* footer */
+.footer {
+	padding: 60px 0 0;
+	background-color: #333;
+}
+
+.heading-footer {
+	font-size: 1.4em;
+	color: #fff;
+	font-weight: 300;
+	position: relative;
+}
+
+.heading-footer i {
+	font-size: 27px;
+    font-weight: 500;
+    transition: all .1s ease-in-out;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+.footer-column.active i {
+	transform: rotate(45deg);
+}
+
+.menu-footer li {
+	margin-bottom: 9px;
+}
+
+.menu-footer li a {
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+
+/* Footer midle*/
+.footer-midle {	
+	margin: 40px 0 20px;
+}
+
+.footer-midle .item-list-icon {
+	justify-content: flex-end;
+}
+
+.item-list-menu {
+	flex-wrap: wrap;
+}
+
+.item-list-menu li {
+	margin-bottom: 5px;
+}
+
+.item-list-menu li a {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	position: relative;
+	margin-right: 50px;
+}
+
+.item-list-icon li i {
+	color: #fff !important;
+	font-size: 19px;
+	margin-left: 30px;
+}
+
+/* Footer bottom*/
+.footer-bottom .container-fluidd {
+	position: relative;
+}
+
+.footer-bottom .container-fluidd .row {
+	padding-top: 17px;
+	padding-bottom: 17px; 
+}
+
+.footer-bottom .container-fluidd:before {
+    height: 1px;
+    content: "";
+    position: absolute;
+    left: 15px; 
+    right: 15px;
+    background: #636363;
+}
+
+.footer-bottom .item-link-hozi, 
+.footer-bottom p {
+	margin-bottom: 0;
+}
+
+.item-link-hozi li a {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	position: relative;
+	padding-right: 8px;
+	margin-right: 8px;
+}
+
+.item-link-hozi li a:after {
+	position: absolute;
+	content: '';
+	top: 2px;
+	right: 0;
+	width: 1px;
+	height: 10px;
+	background-color: #fff;
+}
+
+.item-link-hozi li:last-child a {
+	padding-right: 0;
+	margin-right: 0;
+}
+
+.item-link-hozi li:last-child a:after {
+	display: none;
+}
+
+.col-right p {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	transform: translateY(3px);
+}
+
+@media (max-width: 1199px) {
+	.footer-column {
+		margin-bottom: 30px;
+	}
+
+	.footer-midle {	
+		margin: 20px 0 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.item-list-menu li a {
+	    margin-right: 20px;
+	}
+
+	.footer-midle {	
+		margin: 10px 0 10px;
+	}
+
+	.footer-midle .item-list-icon {
+	    justify-content: flex-start;
+	}
+
+	.item-list-icon li i {
+	    margin-right: 20px;	
+	    margin-left: 0;
+	}
+
+	.footer-bottom .col-right {
+		margin-top: 5px;
+	}
+
+	.col-right {
+		text-align: left;
+	}
+}
+

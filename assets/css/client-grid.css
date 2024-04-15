@@ -1,0 +1,39 @@
+/* Style client grid */
+.row-client {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.client-box {
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+.client-wrap {
+    border: 1px solid #ddd;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.item-client-img {
+    height: 75px;
+    line-height: 75px;
+}
+
+.client-box img {
+    padding: 10px 10px;
+    max-width: 200px;
+}       
+
+.item-client-title {
+    padding: 10px 10px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+}
+
+@media (min-width: 1200px) {
+    .client-box {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}

@@ -1,0 +1,109 @@
+/* Style contact us */
+
+.contact-us-inner {
+    padding: 36px 30px;
+    border: 1px solid #ddd; 
+    border-radius: 20px;
+    margin-top: 44px;
+}
+
+.icon-box {
+    min-width: 87px;
+    height: 87px;
+    line-height: 87px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #2196f3;
+    color: #fff;
+    font-size: 43px;
+    margin-right: 30px;
+}
+
+.contact-us-inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info h5 {
+    margin-top: 11px;
+}
+
+.contact-info-link {
+    margin-top: 59px;
+}
+
+.label-ct {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.ct-link {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--secondary_color);
+}
+
+.label-ct-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--secondary_color);
+}
+
+.ct-link-item {
+    margin-bottom: 25px;
+}
+
+.ct-link-item .btn {
+    margin-right: 20px;
+    min-width: 235px;
+}
+
+.ct-link-item .ct-link-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary_color);
+}
+
+@media (max-width: 767px) {
+    .ct-link-item .btn {
+        margin-right: 0px;
+        display: block;
+        margin-bottom: 15px;
+    }
+}
+
+/* Style contact info list */
+.contact-info-wrap {
+    margin-top: 14px;
+}
+
+.label-ct-list i {
+    color: var(--primary_color);
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+.item-link, .label-ct-list {
+    margin-bottom: 5px;
+}
+
+.ct-info-list span,
+.ct-info-list a {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.ct-info-list span {
+    font-weight: 700;
+}
+
+.ct-info-list a {
+    font-weight: 400;
+    color: var(--secondary_color);
+}
+
+.section-map {
+    margin-top: 50px;
+}
