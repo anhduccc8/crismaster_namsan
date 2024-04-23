@@ -51,3 +51,26 @@
     align-items: end;
 }
 
+/* Section grid colleciton */
+.btn-item-grid {
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.btn-item-grid i {
+    font-size: 12px;
+    margin-left: 3px;
+}
+
+.wrap-content-collection {
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.wrap-content-collection .btn-item-grid {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+}

@@ -7,6 +7,10 @@
     margin-top: 80px;
 }
 
+.collection-page {
+    margin-top: 120px;
+}
+
 header {
     z-index: 99;
     position: fixed;
@@ -261,4 +265,36 @@ ul.main-menu {
     .form-search-respon input:hover {
         border-color: #fff !important;
     }
+}
+
+/* Header above style */
+@media (min-width: 1200px) {
+    .header-above {
+        background-color: #333;
+    }
+}
+
+.header-above .row-header-above {
+    justify-content: center;
+}
+
+.menu-above .main-menu li:first-child a {
+    border-left: 1px solid #6d6d6d;
+}
+
+.menu-above .main-menu li a {
+    color: #fff;
+    font-size: 13px !important;
+    font-weight: 400;
+    height: 50px;
+    line-height: 50px;
+    border-right: 1px solid #6d6d6d;
+}
+
+.menu-above .main-menu li a:hover {
+    color: #fff !important;
+}
+
+.menu-collection {
+    display: none;
 }
