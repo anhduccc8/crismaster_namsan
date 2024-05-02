@@ -7,13 +7,14 @@ if (isset($theme_option['header_logo']['url'])){
 if (isset($theme_option['header_logo_m']['url'])){
     $header_logo_m = $theme_option['header_logo_m']['url'];
 }
+$current_language = function_exists('pll_current_language') ? pll_current_language() : '';
 ?>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" type="image/vnd.microsoft.icon" href="<?= get_template_directory_uri() ?>/assets/images/favicon.ico">
-    <link rel="shortcut icon" type="image/x-icon" href="<?= get_template_directory_uri() ?>/assets/images/favicon.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="<?= get_template_directory_uri() ?>/assets/image/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="<?= get_template_directory_uri() ?>/assets/image/favicon.ico">
 	<?php wp_head(); ?>
 </head>
 
@@ -39,24 +40,24 @@ if (isset($theme_option['header_logo_m']['url'])){
                             </a>
                         </div>
                         <ul class="main-menu">
+                            <?php if ($current_language == 'en'){
+                                $menu_items = wp_get_menu_array('16');
+                            }else{
+                                $menu_items = wp_get_menu_array('15');
+                            }
+                            $object = get_queried_object();
+                            if (!empty($menu_items)){
+                                foreach ($menu_items as $menu) { ?>
+                                    <li>
+                                        <a class="<?php if ($menu['object_id'] == $object->ID){ echo 'active'; } ?>" href="<?= $menu['url'] ?>"><?php esc_attr_e( trim($menu['title']), 'crismaster'); ?></a>
+                                    </li>
+                                    <?php
+                                }
+                            }
+                            ?>
                             <li>
-                                <a href="#">Collections</a>
-                            </li>
-                            <li>
-                                <a href="#">About</a>
-                            </li>
-                            <li>
-                                <a href="#">Stories</a>
-                            </li>
-                            <li>
-                                <a href="#">Display Studio</a>
-                            </li>
-                            <li>
-                                <a href="#">Contact</a>
-                            </li>
-                            <li>
-                                <form class="form-search-respon" action="/search" method="GET">
-                                    <input type="text" name="query" placeholder="Search">
+                                <form class="form-search-respon" action="<?php echo esc_url(home_url('/')); ?>" method="get">
+                                    <input type="text" name="s" placeholder="Search">
                                     <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                                 </form>
                             </li>
@@ -74,8 +75,8 @@ if (isset($theme_option['header_logo_m']['url'])){
                             <?= do_shortcode('[polylang_langswitcher]') ?>
                         </div>
                     </div>
-                    <form class="form-search" action="/search" method="GET">
-                        <input type="text" name="query" placeholder="Search">
+                    <form class="form-search" action="<?php echo esc_url(home_url('/')); ?>" method="get">
+                        <input type="text" name="s" placeholder="Search">
                         <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                     </form>
                     <div id="menu-sidebar" class="menu-sidebar">

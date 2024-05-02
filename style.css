@@ -25,17 +25,38 @@
 .owl-carousel.shs-nav-blog-releated-1 .owl-nav.disabled {
     display: block !important;
 }
+.text-bold {
+    font-weight: bold;
+}
 .hide {
     display: none;
 }
-
-.
+.section-bgr-01 .row {
+    background-color: #dfdfdf;
+}
+.none-desktop {
+    display: none;
+}
+.mt-20px {
+    margin-top: 20px;
+}
+.form-subscribe input.btn-main {
+    min-width: 150px;
+    height: 45px;
+    line-height: 45px;
+    background-color: #333;
+    font-size: 15px;
+    padding: 0 20px;
+}
 @media (min-width: 1200px) {
 
 }
 @media (max-width: 1199px) {
     .hide-mobile-1199 {
         display: none;
+    }
+    .none-desktop {
+        display: block;
     }
 }
 @media (max-width: 454px) {

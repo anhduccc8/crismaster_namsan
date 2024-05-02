@@ -9,6 +9,19 @@
 	.site-content {
 		margin-top: 70px;
 	}
+
+	.none-mobile {
+	    display: none;
+	}
+
+	.owl-carousel-section .wrap-image {
+		margin-bottom: 0;
+	}
+
+	.section-bgr.style-02 {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
 	
 	.section-bgr-01 .row,
 	.section-bgr-02 .row {
@@ -89,6 +102,18 @@
 	.menu-above.active .menu-collection .btn-nav-icon:after {
 		height: 62px;
 	}
+
+	.list-info-form {
+	    padding: 50px 30px;
+	}
+
+	.form-contact-us-02 {
+	    padding: 70px 30px 80px;
+	}
+
+	.mt-lg-50 {
+		margin-top: 50px;
+	}
 }
 
 @media (max-width: 991px) {
@@ -107,6 +132,23 @@
 
 	.wrap-cr-fields .item {
 		margin-bottom: 30px;
+	}
+
+	.heading-style .hd-style {
+	    font-size: 25px;
+	    line-height: 1.5;
+	}
+
+	.heading-style {
+	    margin: 80px auto 80px;
+	}
+
+	.mt-lg-50 {
+		margin-top: 50px;
+	}
+
+	.heading-3 {
+		font-size: 40px;
 	}
 }
 
@@ -175,6 +217,27 @@
 	.img-mobile {
 		display: block;
 	}
+
+	.list-info-form {
+	    padding: 50px 20px;
+	}
+
+	.form-contact-us-02 {
+	    padding: 60px 20px 70px;
+	}
+
+	.list-info-form .heading {
+	    font-size: 24px;
+	    margin-bottom: 10px;
+	}
+
+	.list-area-form {
+	    margin-top: 40px;
+	}
+
+	.footer-item-02, .footer-item-03 {
+		margin-top: 60px;
+	}
 }
 
 @media (max-width: 575px) {
@@ -218,6 +281,10 @@
 
 	.description-form {
 		margin-top: 20px !important;
+	}
+
+	.footer-item-03 {
+		margin-top: 30px;
 	}
 }
 

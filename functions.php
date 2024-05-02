@@ -10,6 +10,19 @@ require_once get_template_directory() . '/plugins/custom-visual/collection-banne
 require_once get_template_directory() . '/plugins/custom-visual/collection-title.php';
 require_once get_template_directory() . '/plugins/custom-visual/collection-list-taxonomy.php';
 require_once get_template_directory() . '/plugins/custom-visual/collection-the-best.php';
+require_once get_template_directory() . '/plugins/custom-visual/collection-video-bg.php';
+require_once get_template_directory() . '/plugins/custom-visual/collection-the-best-home.php';
+require_once get_template_directory() . '/plugins/custom-visual/collection-home-trending.php';
+require_once get_template_directory() . '/plugins/custom-visual/collection-home-signup.php';
+require_once get_template_directory() . '/plugins/custom-visual/collection-the-best-video.php';
+require_once get_template_directory() . '/plugins/custom-visual/collection-how-we-work.php';
+require_once get_template_directory() . '/plugins/custom-visual/collection-our-project.php';
+require_once get_template_directory() . '/plugins/custom-visual/collection-showroom-home.php';
+require_once get_template_directory() . '/plugins/custom-visual/collection-partner.php';
+require_once get_template_directory() . '/plugins/custom-visual/collection-showroom-collect-list.php';
+require_once get_template_directory() . '/plugins/custom-visual/collection-list-more-taxonomy.php';
+require_once get_template_directory() . '/plugins/custom-visual/collection-product-solution.php';
+require_once get_template_directory() . '/plugins/custom-visual/contact-form-infor.php';
 // @ini_set( 'upload_max_size' , '64M' );
 // @ini_set( 'post_max_size', '64M');
 // @ini_set( 'max_execution_time', '300' );
@@ -46,6 +59,7 @@ function crismaster_theme_scripts_styles(){
     wp_enqueue_style( 'footer-css', get_template_directory_uri() .'/assets/css/footer.css',array(),'1.0.1');
     wp_enqueue_style( 'language-css', get_template_directory_uri() .'/assets/css/language.css',array(),'1.0.1');
     wp_enqueue_style( 'response-css', get_template_directory_uri() .'/assets/css/responsive.css',array(),'1.0.1');
+    wp_enqueue_style( 'form-css', get_template_directory_uri() .'/assets/css/form.css',array(),'1.0.1');
     wp_enqueue_style( 'grid-css', get_template_directory_uri() .'/assets/css/grid.css',array(),'1.0.1');
     wp_enqueue_style( '2-css', get_template_directory_uri() .'/assets/css/owl.carousel.css',array());
     wp_enqueue_style( '3-css', get_template_directory_uri() .'/assets/css/owl.theme.css',array());
@@ -324,12 +338,8 @@ add_action('wpcf7_mail_sent', 'custom_cf7_redirect');
 function custom_cf7_redirect($contact_form) {
     $form_id = $contact_form->id();
     if ($form_id) {
-        $current_language = function_exists('pll_current_language') ? pll_current_language() : '';
-        if ($current_language == 'vi'){
-            $redirect_url = get_permalink('189');
-        }else{
-            $redirect_url = get_permalink('189');
-        }
+        $redirect_url = get_permalink();
+        $redirect_url = $redirect_url.'?form_submit=success';
         wp_redirect($redirect_url);
         exit();
     }
@@ -343,6 +353,151 @@ function formatPhoneNumber($phoneNumber) {
     } else {
         return "";
     }
+}
+
+function _convertToSMS($content) {
+    $utf82abc = array(
+        'à' => 'a',
+        'á' => 'a',
+        'ả' => 'a',
+        'ã' => 'a',
+        'ạ' => 'a',
+        'ă' => 'a',
+        'ằ' => 'a',
+        'ắ' => 'a',
+        'ẳ' => 'a',
+        'ẵ' => 'a',
+        'ặ' => 'a',
+        'â' => 'a',
+        'ầ' => 'a',
+        'ấ' => 'a',
+        'ẩ' => 'a',
+        'ẫ' => 'a',
+        'ậ' => 'a',
+        'đ' => 'd',
+        'è' => 'e',
+        'é' => 'e',
+        'ẻ' => 'e',
+        'ẽ' => 'e',
+        'ẹ' => 'e',
+        'ê' => 'e',
+        'ề' => 'e',
+        'ế' => 'e',
+        'ể' => 'e',
+        'ễ' => 'e',
+        'ệ' => 'e',
+        'ì' => 'i',
+        'í' => 'i',
+        'ỉ' => 'i',
+        'ĩ' => 'i',
+        'ị' => 'i',
+        'ò' => 'o',
+        'ó' => 'o',
+        'ỏ' => 'o',
+        'õ' => 'o',
+        'ọ' => 'o',
+        'ô' => 'o',
+        'ồ' => 'o',
+        'ố' => 'o',
+        'ổ' => 'o',
+        'ỗ' => 'o',
+        'ộ' => 'o',
+        'ơ' => 'o',
+        'ờ' => 'o',
+        'ớ' => 'o',
+        'ở' => 'o',
+        'ỡ' => 'o',
+        'ợ' => 'o',
+        'ù' => 'u',
+        'ú' => 'u',
+        'ủ' => 'u',
+        'ũ' => 'u',
+        'ụ' => 'u',
+        'ư' => 'u',
+        'ừ' => 'u',
+        'ứ' => 'u',
+        'ử' => 'u',
+        'ữ' => 'u',
+        'ự' => 'u',
+        'ỳ' => 'y',
+        'ý' => 'y',
+        'ỷ' => 'y',
+        'ỹ' => 'y',
+        'ỵ' => 'y',
+        'À' => 'A',
+        'Á' => 'A',
+        'Ả' => 'A',
+        'Ã' => 'A',
+        'Ạ' => 'A',
+        'Ă' => 'A',
+        'Ằ' => 'A',
+        'Ắ' => 'A',
+        'Ẳ' => 'A',
+        'Ẵ' => 'A',
+        'Ặ' => 'A',
+        'Â' => 'A',
+        'Ầ' => 'A',
+        'Ấ' => 'A',
+        'Ẩ' => 'A',
+        'Ẫ' => 'A',
+        'Ậ' => 'A',
+        'Đ' => 'D',
+        'È' => 'E',
+        'É' => 'E',
+        'Ẻ' => 'E',
+        'Ẽ' => 'E',
+        'Ẹ' => 'E',
+        'Ê' => 'E',
+        'Ề' => 'E',
+        'Ế' => 'E',
+        'Ể' => 'E',
+        'Ễ' => 'E',
+        'Ệ' => 'E',
+        'Ì' => 'I',
+        'Í' => 'I',
+        'Ỉ' => 'I',
+        'Ĩ' => 'I',
+        'Ị' => 'I',
+        'Ò' => 'O',
+        'Ó' => 'O',
+        'Ỏ' => 'O',
+        'Õ' => 'O',
+        'Ọ' => 'O',
+        'Ô' => 'O',
+        'Ồ' => 'O',
+        'Ố' => 'O',
+        'Ổ' => 'O',
+        'Ỗ' => 'O',
+        'Ộ' => 'O',
+        'Ơ' => 'O',
+        'Ờ' => 'O',
+        'Ớ' => 'O',
+        'Ở' => 'O',
+        'Ỡ' => 'O',
+        'Ợ' => 'O',
+        'Ù' => 'U',
+        'Ú' => 'U',
+        'Ủ' => 'U',
+        'Ũ' => 'U',
+        'Ụ' => 'U',
+        'Ư' => 'U',
+        'Ừ' => 'U',
+        'Ứ' => 'U',
+        'Ử' => 'U',
+        'Ữ' => 'U',
+        'Ự' => 'U',
+        'Ỳ' => 'Y',
+        'Ý' => 'Y',
+        'Ỷ' => 'Y',
+        'Ỹ' => 'Y',
+        'Ỵ' => 'Y',
+        '̀' => '',
+        '́' => '',
+        '̉' => '',
+        '̃' => '',
+        '̣' => ''
+    );
+    return str_replace(array_keys($utf82abc), array_values($utf82abc), $content);
 }
 
 function tags_add_custom_types( $query ) {

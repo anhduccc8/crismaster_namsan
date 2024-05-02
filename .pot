@@ -1,0 +1,775 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: crismaster\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-25 06:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.7; wp-6.5.2\n"
+"X-Domain: crismaster"
+
+#: functions.php:82 functions.php:83
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:297
+msgid "(414) 687 - 5892"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:290
+msgid "794 Mcallister St San Francisco, 94102"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:87
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:529
+#, php-format
+msgid ""
+"<p>Did you know that Redux sets a global variable for you? To access any of "
+"your saved options from within your code you can use your global variable: "
+"<strong>$%1$s</strong></p>"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:448
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:438
+#: plugins/redux/sample/sample-config.php:444
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:531
+msgid ""
+"<p>This text is displayed above the options panel. It isn't required, but "
+"more info is always better! The intro_text field accepts all HTML.</p>"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:535
+msgid ""
+"<p>This text is displayed below the options panel. It isn't required, but "
+"more info is always better! The footer_text field accepts all HTML.</p>"
+msgstr ""
+
+#: functions.php:86
+#, php-format
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:339
+msgid "Banner lớn đầu trang"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:171
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: archive.php:20
+msgid "Category: "
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:330
+msgid "Chi tiết Doanh Nghiệp"
+msgstr ""
+
+#: comments.php:27
+msgid "Chưa có nhận xét nào hoặc ý kiến của bạn đang được xét duyệt!"
+msgstr ""
+
+#: search.php:295 template/page-danh-sach-doanh-nghiep.php:290
+msgid "Chưa thêm ngành nghề"
+msgstr ""
+
+#: search.php:278 template/page-danh-sach-doanh-nghiep.php:273
+msgid "Chưa thêm sản phẩm/dịch vụ"
+msgstr ""
+
+#: plugins/custom-post-type/crismaster_post_type.php:14
+msgid "Chỉnh sửa Collection"
+msgstr ""
+
+#: plugins/custom-post-type/crismaster_post_type.php:49
+msgid "Chỉnh sửa Danh mục Collection"
+msgstr ""
+
+#: search.php:139 template/page-danh-sach-doanh-nghiep.php:143
+msgid "Chọn Ngành Nghề"
+msgstr ""
+
+#: search.php:155 template/page-danh-sach-doanh-nghiep.php:159
+msgid "Chọn Thành Phố"
+msgstr ""
+
+#: plugins/custom-post-type/crismaster_post_type.php:11
+msgctxt "Collection"
+msgid "Thêm mới"
+msgstr ""
+
+#: plugins/custom-visual/collection-banner.php:6
+msgid "Collection Banner"
+msgstr ""
+
+#: plugins/custom-post-type/crismaster_post_type.php:18
+msgid "Collection cha:"
+msgstr ""
+
+#: plugins/custom-visual/collection-how-we-work.php:6
+msgid "Collection How We Work - Home"
+msgstr ""
+
+#: plugins/custom-visual/collection-the-best.php:35
+msgid "Collection ID"
+msgstr ""
+
+#: plugins/custom-visual/collection-list-taxonomy.php:6
+msgid "Collection List Danh mục"
+msgstr ""
+
+#: plugins/custom-post-type/crismaster_post_type.php:13
+msgid "Collection mới"
+msgstr ""
+
+#: plugins/custom-visual/collection-the-best.php:6
+msgid "Collection Nổi bật"
+msgstr ""
+
+#: plugins/custom-visual/collection-the-best-video.php:6
+msgid "Collection Nổi bật + Video"
+msgstr ""
+
+#: plugins/custom-visual/collection-the-best-home.php:6
+msgid "Collection Nổi bật - Home"
+msgstr ""
+
+#: plugins/custom-visual/collection-our-project.php:6
+msgid "Collection Our Project - Home"
+msgstr ""
+
+#: plugins/custom-visual/collection-partner.php:6
+msgid "Collection Partner - Home"
+msgstr ""
+
+#: plugins/custom-visual/collection-showroom-home.php:6
+msgid "Collection Showroom"
+msgstr ""
+
+#: plugins/custom-visual/collection-home-signup.php:6
+msgid "Collection Sign Up - Home"
+msgstr ""
+
+#: plugins/custom-visual/collection-title.php:6
+msgid "Collection Title"
+msgstr ""
+
+#: plugins/custom-visual/collection-home-trending.php:6
+msgid "Collection Trending - Home"
+msgstr ""
+
+#: plugins/custom-visual/collection-video-bg.php:6
+msgid "Collection Video"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:304
+msgid "contact@company.com"
+msgstr ""
+
+#. Description of the theme
+msgid "CR"
+msgstr ""
+
+#. Name of the theme
+msgid "crismaster"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:462
+#: plugins/redux/sample/sample-config.php:463
+msgid "crismaster Options"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:159
+#: plugins/redux/sample/sample-config.php:162
+msgid "Current theme preview"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:153
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:230
+msgid "Cài đặt Footer"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:204
+msgid "Cài đặt Header"
+msgstr ""
+
+#: plugins/custom-visual/collection-the-best.php:38
+msgid "Có thể nhập id collection"
+msgstr ""
+
+#: plugins/custom-visual/collection-partner.php:24
+msgid "Có thể nhập nhiều ảnh vuông 500 x 500"
+msgstr ""
+
+#: plugins/custom-visual/collection-home-signup.php:24
+#: plugins/custom-visual/collection-home-trending.php:24
+#: plugins/custom-visual/collection-how-we-work.php:24
+#: plugins/custom-visual/collection-our-project.php:17
+#: plugins/custom-visual/collection-partner.php:17
+#: plugins/custom-visual/collection-showroom-home.php:17
+#: plugins/custom-visual/collection-the-best-home.php:24
+#: plugins/custom-visual/collection-the-best-video.php:17
+#: plugins/custom-visual/collection-the-best.php:31
+msgid "Có thể nhập text dạng html"
+msgstr ""
+
+#: plugins/cmb2/example-functions.php:232
+msgid "Có thể upload nhiều file"
+msgstr ""
+
+#: plugins/custom-post-type/crismaster_post_type.php:50
+msgid "Cập nhật Danh mục Collection"
+msgstr ""
+
+#: plugins/custom-post-type/crismaster_post_type.php:53
+msgid "Danh mục Collection"
+msgstr ""
+
+#: plugins/custom-post-type/crismaster_post_type.php:47
+msgid "Danh mục Collection cha"
+msgstr ""
+
+#: plugins/custom-post-type/crismaster_post_type.php:48
+msgid "Danh mục Collection cha:"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:395
+msgid "Danh sách doanh nghiệp"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:302
+msgid "Email"
+msgstr ""
+
+#: functions.php:87
+msgid "Error 404"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:253
+msgid "Facebook"
+msgstr ""
+
+#: template-parts/email-register.php:17
+msgid "Gửi yêu cầu thành công !"
+msgstr ""
+
+#. Name of the template
+#: page.php:2
+msgid "Home Page"
+msgstr ""
+
+#: plugins/custom-visual/collection-the-best.php:42
+msgid "Hoặc nhập link đi đến collection"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:178
+msgid "http://codex.wordpress.org/Child_Themes"
+msgstr ""
+
+#: archive.php:11
+msgctxt "hàng năm"
+msgid "Y"
+msgstr ""
+
+#: archive.php:8
+msgctxt "hàng tháng"
+msgid "F Y"
+msgstr ""
+
+#: plugins/custom-visual/collection-home-signup.php:14
+#: plugins/custom-visual/collection-home-trending.php:14
+#: plugins/custom-visual/collection-how-we-work.php:14
+#: plugins/custom-visual/collection-our-project.php:28
+#: plugins/custom-visual/collection-partner.php:21
+#: plugins/custom-visual/collection-showroom-home.php:21
+#: plugins/custom-visual/collection-the-best-home.php:14
+#: plugins/custom-visual/collection-the-best.php:14
+msgid "Hình Ảnh"
+msgstr ""
+
+#: plugins/custom-visual/collection-banner.php:14
+msgid "Hình Ảnh Desktop"
+msgstr ""
+
+#: plugins/custom-visual/collection-banner.php:21
+msgid "Hình Ảnh Mobile"
+msgstr ""
+
+#: plugins/custom-visual/collection-showroom-home.php:24
+msgid "Hình ảnh có kích thước 1020 x 540"
+msgstr ""
+
+#: plugins/custom-visual/collection-home-trending.php:17
+msgid "Hình ảnh có kích thước 1060 x 703"
+msgstr ""
+
+#: plugins/custom-visual/collection-banner.php:17
+msgid "Hình ảnh có kích thước 1500 x 695"
+msgstr ""
+
+#: plugins/custom-visual/collection-the-best-home.php:17
+msgid "Hình ảnh có kích thước 1960 x 644"
+msgstr ""
+
+#: plugins/custom-visual/collection-the-best.php:17
+msgid "Hình ảnh có kích thước 2000 x 1080"
+msgstr ""
+
+#: plugins/custom-visual/collection-banner.php:24
+msgid "Hình ảnh có kích thước 480 x 555"
+msgstr ""
+
+#: plugins/custom-visual/collection-home-signup.php:17
+msgid "Hình ảnh có kích thước 826 x 772"
+msgstr ""
+
+#: plugins/custom-visual/collection-how-we-work.php:17
+msgid "Hình ảnh có kích thước 980 x 423"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:267
+msgid "Instagram"
+msgstr ""
+
+#: 404.php:13
+msgid "KHÔNG CÒN TỒN TẠI"
+msgstr ""
+
+#. Author of the theme
+msgid "Khách"
+msgstr ""
+
+#: plugins/custom-visual/collection-video-bg.php:17
+msgid "Không cần nhập gì ở đây cả"
+msgstr ""
+
+#: plugins/custom-post-type/crismaster_post_type.php:20
+msgid "Không tìm thấy Collection trong thùng rác."
+msgstr ""
+
+#: plugins/custom-post-type/crismaster_post_type.php:19
+msgid "Không tìm thấy Collection."
+msgstr ""
+
+#: archive.php:14
+msgid "Kết quả cho : "
+msgstr ""
+
+#: search.php:196
+msgid "kết quả cho : "
+msgstr ""
+
+#: plugins/custom-visual/collection-video-bg.php:14
+msgid "Link"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:374
+msgid "Link gửi yêu cầu"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:376
+msgid "Link gửi yêu cầu cập nhật thông tin doanh nghiệp"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:381
+msgid "Link liên hệ ngay"
+msgstr ""
+
+#: plugins/custom-visual/collection-our-project.php:44
+msgid "Link view all"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:388
+msgid "Link xem chi tiết"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:274
+msgid "LinkedIn"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:404
+msgid "List 4 Ảnh banner bé đầu trang"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:422
+msgid "List 4 Ảnh Quảng cáo footer"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:366
+msgid "List Ảnh banner bé dưới footer"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:348
+msgid "List Ảnh gallery"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:357
+msgid "List Ảnh Quảng cáo"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:413
+msgid "List Ảnh Quảng cáo sidebar"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:238
+msgid "Logo"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:213
+msgid "Logo Desktop"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:222
+msgid "Logo Mobile"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:248
+msgid "Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam"
+msgstr ""
+
+#: search.php:135 template/page-danh-sach-doanh-nghiep.php:139
+msgid "Lọc theo"
+msgstr ""
+
+#: search.php:252 template/page-danh-sach-doanh-nghiep.php:248
+msgid "Mã số thuế"
+msgstr ""
+
+#: search.php:408 tag.php:238 template/page-danh-sach-doanh-nghiep.php:404
+msgid "Mục lục"
+msgstr ""
+
+#: search.php:283 template/page-danh-sach-doanh-nghiep.php:278
+msgid "Ngành nghề kinh doanh"
+msgstr ""
+
+#: search.php:55 tag.php:55 template/page-danh-sach-doanh-nghiep.php:59
+msgid "Ngành Nghề Liên Quan"
+msgstr ""
+
+#: archive.php:5
+msgid "Ngày: "
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:324
+msgid "Ngăn cách nhau bởi dấu phẩy"
+msgstr ""
+
+#: search.php:95 tag.php:95 template/page-danh-sach-doanh-nghiep.php:99
+msgid "NHÓM NGÀNH NGHỀ"
+msgstr ""
+
+#: comments.php:8
+msgid "Nhận xét"
+msgstr ""
+
+#: plugins/custom-visual/collection-our-project.php:31
+msgid "Nên nhập ảnh vuông 800 x 800"
+msgstr ""
+
+#: archive.php:11
+msgid "Năm: "
+msgstr ""
+
+#: 404.php:13
+msgid "NỘI DUNG BẠN TÌM"
+msgstr ""
+
+#: plugins/custom-visual/collection-home-signup.php:21
+#: plugins/custom-visual/collection-home-trending.php:21
+#: plugins/custom-visual/collection-how-we-work.php:21
+#: plugins/custom-visual/collection-showroom-home.php:14
+#: plugins/custom-visual/collection-the-best-home.php:21
+#: plugins/custom-visual/collection-the-best-video.php:14
+#: plugins/custom-visual/collection-the-best.php:28
+msgid "Nội dung chính"
+msgstr ""
+
+#: archive.php:23
+msgid "OOPS! FILE NOT FOUND"
+msgstr ""
+
+#. Name of the template
+#: index.php:2
+msgid "Page - Index"
+msgstr ""
+
+#. Name of the template
+#: template/page-danh-sach-doanh-nghiep.php:2
+msgid "Page Danh sách Doanh Nghiệp"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:309
+msgid "Privacy Policy"
+msgstr ""
+
+#: 404.php:21
+msgid "QUAY VỀ TRANG CHỦ"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:86
+msgid "Section via hook"
+msgstr ""
+
+#: functions.php:202
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:199
+msgid "Sidebar "
+msgstr ""
+
+#: search.php:266 template/page-danh-sach-doanh-nghiep.php:261
+msgid "Sản phẩm chính"
+msgstr ""
+
+#: plugins/custom-visual/collection-list-taxonomy.php:14
+msgid "Số lượng danh mục muốn show"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:295
+msgid "Số điện thoại"
+msgstr ""
+
+#: search.php:74 tag.php:74 template/page-danh-sach-doanh-nghiep.php:78
+msgid "TAG NGÀNH NGHỀ"
+msgstr ""
+
+#: archive.php:17
+msgid "Tag: "
+msgstr ""
+
+#: tag.php:159 plugins/redux/sample/sample-config.php:173
+msgid "Tags"
+msgstr ""
+
+#: functions.php:85
+#, php-format
+msgid "Tags \"%s\""
+msgstr ""
+
+#: tag.php:134
+msgid "Tags đang xem : "
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:316
+msgid "Terms and Conditions"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:437
+msgid "Theme Information 1"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:443
+msgid "Theme Information 2"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:178
+#, php-format
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr ""
+
+#: archive.php:8
+msgid "Tháng: "
+msgstr ""
+
+#: plugins/custom-visual/collection-our-project.php:21
+msgid "Thêm các project/collection"
+msgstr ""
+
+#: plugins/custom-post-type/crismaster_post_type.php:12
+msgid "Thêm mới Collection"
+msgstr ""
+
+#: plugins/custom-post-type/crismaster_post_type.php:51
+msgid "Thêm mới Danh mục Collection"
+msgstr ""
+
+#: plugins/custom-post-type/crismaster_post_type.php:10
+msgctxt "Thêm mới trên thanh admin"
+msgid "Collection"
+msgstr ""
+
+#: 404.php:15
+msgid ""
+"Thật không may, địa chỉ URL bạn yêu cầu không được tìm thấy. Quay về trang "
+"trước hoặc trang chủ để tìm kiếm nội dung liên quan."
+msgstr ""
+
+#: plugins/widget/widgets.php:245
+msgid "Tin mới nhất"
+msgstr ""
+
+#: plugins/custom-visual/collection-our-project.php:14
+#: plugins/custom-visual/collection-partner.php:14
+#: plugins/custom-visual/collection-the-best.php:21
+#: plugins/custom-visual/collection-title.php:14
+msgid "Title"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:246
+msgid "Tiêu đề cho logo"
+msgstr ""
+
+#: functions.php:81
+msgid "Trang chủ"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:260
+msgid "Twitter"
+msgstr ""
+
+#: plugins/custom-post-type/crismaster_post_type.php:7
+#: plugins/custom-post-type/crismaster_post_type.php:8
+msgctxt "Tên Danh mục bài viết"
+msgid "Collection"
+msgstr ""
+
+#: plugins/custom-post-type/crismaster_post_type.php:9
+msgctxt "Tên menu"
+msgid "Collection"
+msgstr ""
+
+#: plugins/custom-post-type/crismaster_post_type.php:52
+msgid "Tên mới của Danh mục Collection"
+msgstr ""
+
+#: plugins/custom-post-type/crismaster_post_type.php:43
+#: plugins/custom-post-type/crismaster_post_type.php:44
+msgctxt "Tên taxonomy"
+msgid "Danh mục Collection"
+msgstr ""
+
+#: plugins/custom-post-type/crismaster_post_type.php:17
+msgid "Tìm kiếm Collection"
+msgstr ""
+
+#: plugins/custom-post-type/crismaster_post_type.php:45
+msgid "Tìm kiếm Danh mục Collection"
+msgstr ""
+
+#: functions.php:84
+#, php-format
+msgid "Tìm kiếm: %s"
+msgstr ""
+
+#: search.php:196
+msgid "Tìm thấy"
+msgstr ""
+
+#: plugins/custom-post-type/crismaster_post_type.php:16
+msgid "Tất cả Collection"
+msgstr ""
+
+#: header.php:104
+msgid "Tất cả danh mục"
+msgstr ""
+
+#: plugins/custom-post-type/crismaster_post_type.php:46
+msgid "Tất cả Danh mục Collection"
+msgstr ""
+
+#: search.php:113 tag.php:113 template/page-danh-sach-doanh-nghiep.php:117
+msgid "Tỉnh/ Thành Phố"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:323
+msgid "Tọa độ địa chỉ"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:325
+msgid "VD: 21.0193525644659, 105.77550865223736"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:172
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: plugins/custom-visual/collection-our-project.php:91
+msgid "VIEW ALL PROJECTS"
+msgstr ""
+
+#: comments.php:9
+msgid "Viết Đánh Giá"
+msgstr ""
+
+#: archive.php:58 plugins/custom-visual/collection-the-best.php:85
+#: plugins/custom-visual/collection-the-best.php:87
+msgid "Xem chi tiết"
+msgstr ""
+
+#: plugins/custom-post-type/crismaster_post_type.php:15
+msgid "Xem Collection"
+msgstr ""
+
+#: search.php:304 tag.php:170 template/page-danh-sach-doanh-nghiep.php:299
+msgid "Xem Thêm"
+msgstr ""
+
+#: plugins/redux/sample/sample-config.php:281
+msgid "Youtube"
+msgstr ""
+
+#: plugins/custom-visual/collection-our-project.php:35
+msgid "Đi đến Link"
+msgstr ""
+
+#: search.php:260 template/page-danh-sach-doanh-nghiep.php:255
+msgid "Điện thoại"
+msgstr ""
+
+#: search.php:225 tag.php:151 template/page-danh-sach-doanh-nghiep.php:221
+msgid "Đã Xác Thực"
+msgstr ""
+
+#: template-parts/email-register.php:12
+msgid "ĐĂNG KÝ ĐỂ NHẬN THÔNG TIN MỚI NHẤT"
+msgstr ""
+
+#: template-parts/email-register.php:21
+msgid "Đăng ký là bạn đã đồng ý với"
+msgstr ""
+
+#: search.php:214 template/page-danh-sach-doanh-nghiep.php:210
+msgid "Được Tài Trợ"
+msgstr ""
+
+#: search.php:245 template/page-danh-sach-doanh-nghiep.php:241
+#: plugins/redux/sample/sample-config.php:288
+msgid "Địa chỉ"
+msgstr ""
+
+#: template-parts/email-register.php:21
+msgid "điều khoản của chúng tôi."
+msgstr ""
+
+#: plugins/cmb2/example-functions.php:231
+msgid "Ảnh giải thưởng và danh mục"
+msgstr ""

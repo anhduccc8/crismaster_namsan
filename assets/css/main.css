@@ -92,8 +92,16 @@ ul li {
     margin-top: 20px;
 }
 
+.mt-30 {
+    margin-top: 30px;
+}
+
 .mt-70 {
     margin-top: 70px;
+}
+
+.mt-50 {
+    margin-top: 50px;
 }
 
 .mb-0 {
@@ -110,6 +118,10 @@ ul li {
 
 .fw-400 {
     font-weight: 400 !important;
+}
+
+.m-auto {
+    margin: 0 auto !important;
 }
 
 .col-right {
@@ -142,6 +154,26 @@ ul li {
 .btn-hover-line:hover:before {
     left: 0;
     width: 100%;
+}
+
+.btn-main.btn-icon {
+    border-radius: 12px;
+    padding: 0 15px;
+    height: 38px;
+    line-height: 37px;
+    background-color: rgb(51, 51, 51);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.btn-icon i {
+    font-size: 12px;
+    margin-left: 7px;
+}
+
+.btn-main.btn-icon:hover {
+    background-color: rgb(255, 210, 223);
+    border-color: rgb(255, 210, 223);
 }
 
 .color-white {
@@ -206,6 +238,16 @@ ul li {
         max-width: 20.000000%;
         padding-right: 15px;
         padding-left: 15px;
+    }
+
+    .section-bgr.style-02 {
+        background-repeat: repeat-x;
+        background-position: 50% 50%;
+        background-attachment: scroll;
+    }
+
+    .column-info-form {
+        margin-left: -30px;
     }
 }
 
@@ -296,6 +338,14 @@ ul li {
         max-width: 450px;
     }
 
+    .mw-500 {
+        max-width: 500px;
+    }
+
+    .mw-1000 {
+        max-width: 1000px;
+    }
+
     .column-img {
         padding-right: 60px;
     }
@@ -310,6 +360,10 @@ ul li {
 
     .pr-70 {
         padding-right: 70px !important;
+    }
+
+    .pl-70 {
+        padding-left: 70px !important; 
     }
 }
 
@@ -555,12 +609,94 @@ ul li {
     display: block;
 }
 
+.heading-style {
+    position: relative;
+    padding: 35px 0 30px;
+    margin: 100px auto 100px;
+}
 
+.heading-style:before, 
+.heading-style:after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 1px;
+    background-color: #000;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
+.heading-style:before {
+    top: 0;
+}
 
+.heading-style:after {
+    bottom: 0;
+}
 
+.heading-style .sub-heading-style {
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+}
 
+.heading-style .hd-style {
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 300;
+    margin-bottom: 0;
+}
 
+.heading.style-02 {
+    font-size: 23px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
 
+.heading-3 {
+    font-size: 55px;
+    font-weight: 200;
+    color: #333;
+    margin-bottom: 20px;
+}
 
+.heading-4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.sub-heading.style-02 {
+    font-weight: 700;
+    font-size: 13px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.sub-heading.style-02:before {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 2px;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000;
+}
+
+/* Section our partner */
+.owl-carousel-section .wrap-image {
+    margin-bottom: 40px;
+}
+
+.owl-carousel-section .wrap-image img {
+    margin: 0 auto;
+}
+
+.owl-nav {
+    display: none;
+}
 

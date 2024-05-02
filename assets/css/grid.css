@@ -74,3 +74,29 @@
     bottom: 40px;
     left: 0;
 }
+
+/* Section grid contact */
+.wrap-item-contact {
+    margin-bottom: 50px;
+}
+
+.heading-contact-grid {
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.list-item-contact a,
+.list-item-contact div {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.list-item-contact .mail {
+    text-decoration: underline;
+}
+
+.list-item-contact a:hover {
+    text-decoration: underline;
+}
