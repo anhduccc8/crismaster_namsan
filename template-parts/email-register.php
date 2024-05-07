@@ -8,7 +8,7 @@ if (isset($_GET['form_submit']) && $_GET['form_submit'] == 'success'){
     <div class="container-fluidd">
         <div class="row">
             <div class="col-12 text-center">
-                <h3 class="heading" style="margin-bottom: 30px; font-size: 20px;"><?= esc_html__('ĐĂNG KÝ ĐỂ NHẬN THÔNG TIN MỚI NHẤT','crismaster') ?></h3>
+                <h3 class="heading fs-15-mo" style="margin-bottom: 30px; font-size: 20px;"><?= esc_html__('ĐĂNG KÝ ĐỂ NHẬN THÔNG TIN MỚI NHẤT','crismaster') ?></h3>
                 <?= do_shortcode('[contact-form-7 id="4497419" title="Form Newsletter"]') ?>
                 <?php if ($flag){ ?>
                     <span class="text-success" role="alert">
