@@ -88,7 +88,7 @@ $current_language = function_exists('pll_current_language') ? pll_current_langua
     </div>
     <?php
     $page_id = get_queried_object_id();
-    if (is_archive() || $page_id == '21') { ?>
+    if (is_archive() || $page_id == '21' || $page_id == '117') { ?>
         <div class="header-above">
             <div class="container-fluidd">
                 <div class="row row-header-above space-between">

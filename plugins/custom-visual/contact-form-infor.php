@@ -74,7 +74,7 @@ function collection_contact_form_func($atts,$content = null){
                 <div class="col-12 col-lg-8">
                     <div class="form-contact-us-02">
                         <h3 class="heading" style="margin-bottom: 30px; font-size: 20px;">
-                            <?= esc_html__('LIÊN HỆ VỚI CHÚNG TÔI') ?>
+                            <?= esc_html__('LIÊN HỆ VỚI CHÚNG TÔI','crismaster') ?>
                         </h3>
                         <?php if ($flag){ ?>
                             <span class="text-success" role="alert">

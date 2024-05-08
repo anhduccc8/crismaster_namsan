@@ -79,6 +79,19 @@
     .fs-15-mo {
         font-size: 15px !important;
     }
+    .owl-nav {
+         display: block;
+    }
+    .owl-nav .owl-prev, .owl-nav .owl-next {
+        position: absolute;
+        top: 30%;
+    }
+    .owl-nav .owl-prev {
+        left: 30px;
+    }
+    .owl-nav .owl-next {
+        right: 20px;
+    }
 }
 @media (max-width: 454px) {
 

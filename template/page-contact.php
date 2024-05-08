@@ -11,7 +11,7 @@ $theme_option = get_option('theme_option');
 $page_id = get_queried_object_id();
 if(have_posts()):
     while ( have_posts() ) : the_post(); ?>
-        <main class="site-content <?php if ($page_id == '21'){ echo 'collection-page'; } ?>">
+        <main class="site-content <?php if ($page_id == '21' || $page_id == '117'){ echo 'collection-page'; } ?>">
             <?php the_content(); ?>
         </main>
     <?php
