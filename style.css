@@ -57,6 +57,9 @@
 .wpcf7-response-output {
     display: none;
 }
+.fs-27px {
+    font-size: 27px;
+}
 @media (min-width: 1200px) {
 
 }
