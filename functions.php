@@ -23,6 +23,13 @@ require_once get_template_directory() . '/plugins/custom-visual/collection-showr
 require_once get_template_directory() . '/plugins/custom-visual/collection-list-more-taxonomy.php';
 require_once get_template_directory() . '/plugins/custom-visual/collection-product-solution.php';
 require_once get_template_directory() . '/plugins/custom-visual/contact-form-infor.php';
+require_once get_template_directory() . '/plugins/custom-visual/showroom-4-image.php';
+require_once get_template_directory() . '/plugins/custom-visual/showroom-2-image.php';
+require_once get_template_directory() . '/plugins/custom-visual/about-ele-1.php';
+require_once get_template_directory() . '/plugins/custom-visual/about-ele-2.php';
+require_once get_template_directory() . '/plugins/custom-visual/about-ele-3.php';
+require_once get_template_directory() . '/plugins/custom-visual/about-ele-title.php';
+require_once get_template_directory() . '/plugins/custom-visual/about-ele-form.php';
 // @ini_set( 'upload_max_size' , '64M' );
 // @ini_set( 'post_max_size', '64M');
 // @ini_set( 'max_execution_time', '300' );
@@ -64,7 +71,7 @@ function crismaster_theme_scripts_styles(){
     wp_enqueue_style( '2-css', get_template_directory_uri() .'/assets/css/owl.carousel.css',array());
     wp_enqueue_style( '3-css', get_template_directory_uri() .'/assets/css/owl.theme.css',array());
     wp_enqueue_style( '4-css', get_template_directory_uri() .'/assets/css/owl.transitions.css',array());
-    wp_enqueue_style( 'mystyle', get_template_directory_uri() .'/style.css',array(),'1.0.2');
+    wp_enqueue_style( 'mystyle', get_template_directory_uri() .'/style.css',array(),'1.0.3');
     /**** Start Jquery ****/
     wp_enqueue_script("jquery-min", get_template_directory_uri()."/assets/js/jquery.min.js",array(),true,false);
 //    wp_enqueue_script("jquery-min", "https://code.jquery.com/jquery-3.6.0.min.js",array(),true,false);
