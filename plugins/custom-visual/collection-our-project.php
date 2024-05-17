@@ -32,6 +32,20 @@ if(function_exists('vc_map')){
                         ),
                         array(
                             'type' => 'textfield',
+                            'heading' => esc_html__('Text chính','crismaster'),
+                            'param_name' => 'stitle1',
+                            'value' => '',
+                            'description' => esc_html__('',"crismaster")
+                        ),
+                        array(
+                            'type' => 'textfield',
+                            'heading' => esc_html__('Text phụ','crismaster'),
+                            'param_name' => 'stitle2',
+                            'value' => '',
+                            'description' => esc_html__('',"crismaster")
+                        ),
+                        array(
+                            'type' => 'textfield',
                             'heading' => esc_html__('Đi đến Link','crismaster'),
                             'param_name' => 'slink',
                             'value' => '',
@@ -83,6 +97,9 @@ function collection_our_project_func($atts,$content = null){
                             <div class="wrap-img">
                                 <img src="<?= esc_url($dca['simage'][0]) ?>" style="width: 100%;">
                             </div>
+                            <h3 class="heading">
+                                <?= esc_attr($dca['stitle1']) ?> <br><?= esc_attr($dca['stitle2']) ?>
+                            </h3>
                         </a>
                     </div>
                 <?php  } } ?>
