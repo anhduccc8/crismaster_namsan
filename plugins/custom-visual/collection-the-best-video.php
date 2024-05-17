@@ -43,7 +43,7 @@ function collection_the_best_video_func($atts,$content = null){
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="column-content mw-450 content-center">
-                        <div class="sub-heading"><img src="<?= get_template_directory_uri() ?>/assets/image/img-text.webp" style="max-width: 236px;" alt="img-slide"></div>
+                        <div class="sub-heading"><img src="<?= get_template_directory_uri() ?>/assets/image/img-text.png" style="max-width: 365px; margin-left: -20px;" alt="img-slide"></div>
                         <?= isset($des) ? urldecode(base64_decode($des)) : ''; ?>
                     </div>
                 </div>

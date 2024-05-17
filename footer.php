@@ -12,7 +12,7 @@ $mobile = wp_is_mobile(); ?>
         <div class="container-fluidd">
             <div class="row">
                 <?php if (!empty($footer_menu_arr)){
-                    $t = 1;
+                    $t = 0;
                     foreach ($footer_menu_arr as $menus){
                         $i = 1;
                         $menu = explode('|',$menus);

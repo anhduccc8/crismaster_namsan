@@ -27,6 +27,10 @@ function about_ele_form_func($atts,$content = null){
         'des' => '',
     ),$atts));
     ob_start();
+    $flag = false;
+    if (isset($_GET['form_submit']) && $_GET['form_submit'] == 'success'){
+        $flag = true;
+    }
     ?>
     <section class="section-widget mb-30px">
         <div class="container-fluiddd">
@@ -35,6 +39,11 @@ function about_ele_form_func($atts,$content = null){
                     <h3 class="heading" style="margin-bottom: 30px; font-size: 20px;">
                         <?= esc_html__('LIÊN HỆ VỚI CHÚNG TÔI','crismaster') ?>
                     </h3>
+                    <?php if ($flag){ ?>
+                        <span class="text-success" role="alert">
+                                <?= esc_html__('Gửi yêu cầu thành công !','crismaster') ?>
+                            </span>
+                    <?php } ?>
                 </div>
             </div>
             <div class="row form-contact-us mt-30">
