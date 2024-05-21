@@ -63,6 +63,11 @@
 .mb-30px {
     margin-bottom: 30px;
 }
+.wrap-item-box .heading {
+    font-size: 30px;
+    letter-spacing: 7px;
+    line-height: 40px;
+}
 @media (min-width: 1200px) {
 
 }

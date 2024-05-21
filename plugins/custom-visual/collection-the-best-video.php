@@ -28,7 +28,7 @@ function collection_the_best_video_func($atts,$content = null){
     ),$atts));
     ob_start();
     ?>
-    <section class="section-widget section-bgr-03" style="margin-top: 50px; background-image: url('<?= get_template_directory_uri() ?>/assets/image/bgr-section-02.webp');">
+    <section class="section-widget section-bgr-03" style="margin-top: 50px; background-image: url('<?= get_template_directory_uri() ?>/assets/image/bgr-section-02-c.png');">
         <div class="container-fluiddd">
             <div class="row align-center">
                 <div class="col-12 col-md-8">
