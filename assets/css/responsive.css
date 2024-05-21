@@ -114,6 +114,15 @@
 	.mt-lg-50 {
 		margin-top: 50px;
 	}
+
+	.main-slide-update {
+		min-height: 500px;
+	}
+
+	.content-slide-column {
+		left: 15px;
+		right: 15px;
+	}
 }
 
 @media (max-width: 991px) {
@@ -237,6 +246,19 @@
 
 	.footer-item-02, .footer-item-03 {
 		margin-top: 60px;
+	}
+
+	.img-column-figured {
+		margin: 50px auto 0;
+		max-width: 500px;
+	}
+
+	.row-custom {
+		justify-content: space-evenly;
+	}
+
+	.mt-30-sm {
+	    margin-top: 30px;
 	}
 }
 

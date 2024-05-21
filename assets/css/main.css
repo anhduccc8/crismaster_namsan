@@ -700,3 +700,51 @@ ul li {
     display: none;
 }
 
+.bold {
+    font-weight: 700;
+}
+
+.main-slide-update {
+    position: relative;
+    min-height: 700px;
+    background-color: #cdbfb2;
+}
+
+.content-slide-column {
+    position: absolute;
+    top: 49%;
+    left: 100px;
+    transform: translateY(-50%);
+    max-width: 450px;
+}
+
+.heading.style-03 {
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    max-width: 350px;
+}
+
+.heading.style-04 {
+    margin-top: -6px;
+    font-size: 27px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    max-width: 350px;
+}
+
+.section-bgr-05 {
+    padding: 70px 0;
+}
+.section-bgr-06 {
+    padding: 30px 0;
+}
+
+.column-img-update img {
+    max-height: 620px;
+    min-height: 620px;
+}
+
+.column-content-update {
+    padding-top: 15px;
+}

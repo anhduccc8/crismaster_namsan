@@ -30,6 +30,10 @@ require_once get_template_directory() . '/plugins/custom-visual/about-ele-2.php'
 require_once get_template_directory() . '/plugins/custom-visual/about-ele-3.php';
 require_once get_template_directory() . '/plugins/custom-visual/about-ele-title.php';
 require_once get_template_directory() . '/plugins/custom-visual/about-ele-form.php';
+require_once get_template_directory() . '/plugins/custom-visual/showroom-banner.php';
+require_once get_template_directory() . '/plugins/custom-visual/showroom-2-image-small.php';
+require_once get_template_directory() . '/plugins/custom-visual/showroom-image-2small-2big.php';
+require_once get_template_directory() . '/plugins/custom-visual/showroom-1image.php';
 // @ini_set( 'upload_max_size' , '64M' );
 // @ini_set( 'post_max_size', '64M');
 // @ini_set( 'max_execution_time', '300' );
