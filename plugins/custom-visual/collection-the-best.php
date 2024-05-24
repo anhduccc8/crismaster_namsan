@@ -63,7 +63,7 @@ function collection_the_best_func($atts,$content = null){
         $image_link = wp_get_attachment_image_src($image, '');
     }
     ?>
-    <section class="section-widget section-bgr-03" style="margin-top: 50px; background-image: url('<?= get_template_directory_uri() ?>/assets/image/bgr-section-02.webp');">
+    <section class="section-widget section-bgr-03" style="margin-top: 50px; background-image: url('<?= get_template_directory_uri() ?>/assets/image/bgr-section-02-c.png');">
         <div class="container-fluiddd">
             <div class="row align-center">
                 <div class="col-12 col-md-8">
@@ -73,7 +73,7 @@ function collection_the_best_func($atts,$content = null){
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="column-content mw-450 content-center">
-                        <div class="sub-heading"><img src="<?= get_template_directory_uri() ?>/assets/image/img-text.webp" style="max-width: 236px;" alt="img-slide"></div>
+                        <div class="sub-heading"><img src="<?= get_template_directory_uri() ?>/assets/image/img-text.png" style="max-width: 236px;" alt="img-slide"></div>
                         <h3 class="heading" style="font-size: 22px;">
                             [ <?= $title ?> ]
                         </h3>

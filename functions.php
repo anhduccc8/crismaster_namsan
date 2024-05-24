@@ -65,11 +65,11 @@ function crismaster_theme_scripts_styles(){
     wp_enqueue_style( 'font-css', get_template_directory_uri() .'/assets/font/fontawesome-free-6.0.0-web/css/all.min.css',array());
     wp_enqueue_style( 'font-css-2', get_template_directory_uri() .'/assets/css/font-family.css',array(),'1.0.0');
 
-    wp_enqueue_style( 'main-css', get_template_directory_uri() .'/assets/css/main.css',array(),'1.0.0');
+    wp_enqueue_style( 'main-css', get_template_directory_uri() .'/assets/css/main.css',array(),'1.0.1');
     wp_enqueue_style( 'header-css', get_template_directory_uri() .'/assets/css/header.css',array());
     wp_enqueue_style( 'footer-css', get_template_directory_uri() .'/assets/css/footer.css',array(),'1.0.1');
     wp_enqueue_style( 'language-css', get_template_directory_uri() .'/assets/css/language.css',array(),'1.0.1');
-    wp_enqueue_style( 'response-css', get_template_directory_uri() .'/assets/css/responsive.css',array(),'1.0.1');
+    wp_enqueue_style( 'response-css', get_template_directory_uri() .'/assets/css/responsive.css',array(),'1.0.2');
     wp_enqueue_style( 'form-css', get_template_directory_uri() .'/assets/css/form.css',array(),'1.0.1');
     wp_enqueue_style( 'grid-css', get_template_directory_uri() .'/assets/css/grid.css',array(),'1.0.1');
     wp_enqueue_style( '2-css', get_template_directory_uri() .'/assets/css/owl.carousel.css',array());
